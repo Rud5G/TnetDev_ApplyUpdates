@@ -1,0 +1,19 @@
+{
+  "name": "tnetdev/magento-apply-updates",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Magento Apply Updates",
+  "homepage": "https://github.com/Rud5G/TnetDev_ApplyUpdates",
+  "require": {
+    "php": ">=5.3",
+    "magento-hackathon/magento-composer-installer": "^3.0"
+  },
+  "authors": [
+    {
+      "name": "Rudger Gravestein",
+      "email": "firstname.lastname@triple-networks.com",
+      "role": "Author/Maintainer"
+    }
+  ]
+}
+
