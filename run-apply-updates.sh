@@ -18,7 +18,7 @@ if [[ -z "${DIR}" || ! -d "${DIR}" ]]; then
 fi
 
 # The scheduler.php script
-APPLY_UPDATES="magento1-apply-updates.php"
+APPLY_UPDATES="apply-updates.php"
 if [[ ! -e "${DIR}/${APPLY_UPDATES}" || ! -r "${DIR}/${APPLY_UPDATES}" ]]; then
     echo "Could not find ${APPLY_UPDATES} script" 1>&2
     exit 1
